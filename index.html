@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 12</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- icons -->
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/profile.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/camera.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/phone.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/more-vertical-alt.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/smile.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/attachment.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/dollar.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/mic.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/check.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/search.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/check-o.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/math-plus.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Positions Example -->
+    <!-- <div class="parent">
+        <div class="child child1"></div>
+        <div class="child child2"></div>
+    </div> -->
+
+    <!-- Google Photos -->
+    <div
+      class="content"
+      style="
+        position: relative;
+        overflow-x: auto;
+        overflow-y: auto;
+        scrollbar-width: none;
+      "
+    >
+      <div class="header" style="position: fixed; z-index: 1">
+        <span style="position: absolute; top: 10px; left: 10px; width: 180px"
+          ><b>Google</b> Photos</span
+        >
+        <span style="position: absolute; right: -235px; top: 21px"
+          ><i class="gg-math-plus icons"></i
+        ></span>
+        <span style="position: absolute; top: 10px; right: -275px"
+          ><i class="gg-profile icons"></i
+        ></span>
+      </div>
+      <div class="images">
+        <div>
+          <span style="position: absolute; top: 60px; left: 10px"
+            ><img
+              class="spotlight"
+              src="./assets/arya.jpg"
+              alt=""
+              height="120"
+              width="70"
+            /><span class="featured" style="left: 0.5px"
+              >Look back in time</span
+            ></span
+          >
+          <span style="position: absolute; top: 60px; left: 85px"
+            ><img
+              class="spotlight"
+              src="./assets/jw-2.jpeg"
+              alt=""
+              height="120"
+              width="70"
+            /><span class="featured" style="left: 3px"
+              >Video spotlight</span
+            ></span
+          >
+          <span style="position: absolute; top: 60px; left: 160px"
+            ><img
+              class="spotlight"
+              src="./assets/ichigo.jpeg"
+              alt=""
+              height="120"
+              width="70"
+            /><span class="featured" style="left: 6px"
+              >Featured Thursday</span
+            ></span
+          >
+          <span style="position: absolute; top: 60px; left: 235px"
+            ><img
+              class="spotlight"
+              src="./assets/nanami-2.jpeg"
+              alt=""
+              height="120"
+              width="70"
+            /><span class="featured" style="left: 9px"
+              >Featured Friday</span
+            ></span
+          >
+        </div>
+        <div class="day1">
+          <h6>Yesterday</h6>
+          <span
+            ><img src="./assets/jw-1.jpeg" alt="" height="70px" width="70px"
+          /></span>
+          <span
+            ><img
+              src="./assets/makima-1.jpg"
+              alt=""
+              height="70px"
+              width="70px"
+          /></span>
+        </div>
+        <div class="day2">
+          <h6>Wed, 24 Jan</h6>
+          <span
+            ><img
+              src="./assets/makima-1.jpg"
+              alt=""
+              height="70px"
+              width="70px"
+          /></span>
+        </div>
+        <div class="day3">
+          <h6>Mon, 22 Jan</h6>
+          <span
+            ><img
+              src="./assets/makima-2.jpeg"
+              alt=""
+              height="70px"
+              width="70px"
+          /></span>
+          <span
+            ><img
+              src="./assets/nanami-1.jpeg"
+              alt=""
+              height="70px"
+              width="70px"
+          /></span>
+          <span
+            ><img src="./assets/bib.jpeg" alt="" height="70px" width="70px"
+          /></span>
+        </div>
+        <div class="day4">
+          <h6>December, 2023</h6>
+          <span
+            ><img
+              src="./assets/nanami-1.jpeg"
+              alt=""
+              height="70px"
+              width="70px"
+          /></span>
+        </div>
+        <div class="day5">
+          <h6>November, 2023</h6>
+          <span
+            ><img src="./assets/jw-1.jpeg" alt="" height="70px" width="70px"
+          /></span>
+        </div>
+      </div>
+      <div class="footer">
+        <span
+          ><i
+            class="fa fa-image icons"
+            style="
+              border-radius: 9px;
+              background-color: #3f4758;
+              width: 27px;
+              padding: 6px;
+              height: 20px;
+            "
+          ></i
+        ></span>
+        <span><i class="fa fa-camera-retro icons"></i></span>
+        <span><i class="fa fa-star-o icons"></i></span>
+        <span><i class="fa fa-search icons"></i></span>
+      </div>
+    </div>
+  </body>
+</html>
